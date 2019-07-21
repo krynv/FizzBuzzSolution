@@ -2,7 +2,7 @@
 // https://github.com/krynv
 
 for (var i = 1; i <= 100; i++) {
-    var outputString = '';
+    let outputString = '';
 
     if (i % 3 == 0) { outputString += 'Fizz'; }
     if (i % 5 == 0) { outputString += 'Buzz'; }
